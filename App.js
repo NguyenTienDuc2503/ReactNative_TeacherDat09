@@ -2,14 +2,18 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  return (
+  
+  let thongtin = {
+    age: 5,
+    name: "dat",
+  }
+console.log(thongtin.age, thongtin['age']);
+
+  
+return (
     <View style={styles.container}>
-<<<<<<< HEAD
-      <Text>Hello Teacherr Dat 09!</Text>
-=======
-      <Text>Hello Teacher Dat 09 123!</Text>
->>>>>>> develop
-      <Text>Develop</Text>
+      <Text children={thongtin.age}/>
+      <Text>{thongtin.name}</Text>
       <StatusBar style="auto" />
     </View>
   );
