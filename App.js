@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   
   let thongtin = {
-    age: 5,
+    age: 500,
     name: "dat",
   }
 console.log(thongtin.age, thongtin['age']);
